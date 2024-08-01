@@ -13,12 +13,11 @@ public class SumaNumeros {
         int num2 = entrada.nextInt();
 
         sumaNumeros(num,num2);
-
     }
 
     public static void sumaNumeros(int num,int num2) {
 
         int suma = num + num2;
-        System.out.println(suma);
+        System.out.println("la suma es: "+suma);
     }
 }
